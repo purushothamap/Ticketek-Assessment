@@ -24,7 +24,16 @@ Firstly, we need to create a new environment and deploy your application.
 2. In the Publish to AWS Elastic Beanstalk wizard, enter your account information.
 3. Actually AWS Elastic Beanstalk wizard didn't allow me to add AWS credentials, so found another approach to add the credentials.
 4. Go to "view" tab on visual studio, and then select "AWS Explorer", it would ask "Access key ID" and "Secret access key".
+    
+    ![image](https://user-images.githubusercontent.com/53302261/125888005-7ad13ccb-33f6-40f2-8164-1101bf996a1a.png)
 
-
+6. To generate "Access key ID" and "Secret access key", i have logged into AWS Account and then open IAM console.
+    
+    On the navigation menu, choose Users and then i have selected "Puru Pendyala" user.
+    Open the Security credentials tab, and then choose Create access key.
+    To see the new access key, choose Show.
+    choose Download .csv file. Store the .csv file with keys in a secure location.
+    
+    
 
 After successful build, i have configured 
