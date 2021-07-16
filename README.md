@@ -16,7 +16,7 @@ Actually there are few advantages to deploy applications on elastic beanstalk, e
 
 Post cloning solution repository on my local from https://github.com/opserver/Opserver, the solution has been built using visualstudio 2019. Since it is being deployed into Elastic Beanstalk, the solution configuration is set as "Release", so that all dependency libraries pull into single deployable package.
 
-We have feature in Visual Studio to deploy .Net applications directly into AWS Elastic Beanstalk, AWS Toolkit for Visual Studio is a plugin to the Visual Studio IDE. With the toolkit you can deploy and manage applications in Elastic Beanstalk while you are working in your Visual Studio environment.
+We have feature in Visual Studio to deploy .Net applications directly into AWS Elastic Beanstalk, "AWS Toolkit for Visual Studio" is a plugin to the Visual Studio IDE. With the toolkit you can deploy and manage applications in Elastic Beanstalk while you are working in your Visual Studio environment.
 
 Firstly, we need to create a new environment and deploy your application.
 
@@ -53,5 +53,15 @@ Firstly, we need to create a new environment and deploy your application.
     Region
         (Required) The default AWS Region that you want to associate this profile with.
         
+
+8. Once profile has been created, it will automatically display when you right click on Project select Publish to AWS Elastic Beanstalk" option.
+    ![image](https://user-images.githubusercontent.com/53302261/125889061-4b12e1c2-a9cb-4b7d-962d-de2900b83ecf.png)
+
+9. Since we are creating new application environment, ensure that "Create a nwe application environment" should be selected.
+10. Click "Next"
+11. It would ask for Application, Environment and URL on Application Environment Wizard.
+    ![image](https://user-images.githubusercontent.com/53302261/125889358-01f311ec-ca84-40fc-ae14-70301691557b.png)
+12. ffdf
+
 
 After successful build, i have configured 
