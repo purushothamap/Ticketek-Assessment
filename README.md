@@ -61,7 +61,11 @@ Firstly, we need to create a new environment and deploy your application.
 10. Click "Next"
 11. It would ask for Application, Environment and URL on Application Environment Wizard.
     ![image](https://user-images.githubusercontent.com/53302261/125889358-01f311ec-ca84-40fc-ae14-70301691557b.png)
-12. ffdf
+12. Click "Next"
+13. And then it would ask Amazon EC2 Lauch configuration, like OS, instance type, AMI and Load Balancer etc. Select relavent options based on application capacity and usage.  Since is test environment, i have selected with minimal options.
+    ![image](https://user-images.githubusercontent.com/53302261/125889948-98dc2566-f7d6-4013-87cc-f4319f931cf7.png)
+14. Click "Next"
+15. 
 
 
 After successful build, i have configured 
