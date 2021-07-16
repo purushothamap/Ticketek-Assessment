@@ -65,7 +65,13 @@ Firstly, we need to create a new environment and deploy your application.
 13. And then it would ask Amazon EC2 Lauch configuration, like OS, instance type, AMI and Load Balancer etc. Select relavent options based on application capacity and usage.  Since is test environment, i have selected with minimal options.
     ![image](https://user-images.githubusercontent.com/53302261/125889948-98dc2566-f7d6-4013-87cc-f4319f931cf7.png)
 14. Click "Next"
-15. 
+15. Select Permissions like Deploy application permission and Service Permission roles.
+    ![image](https://user-images.githubusercontent.com/53302261/125891234-4f130aba-d59c-4b7d-8eee-464c1946eea9.png)
 
+16. Select Build and IIS deployment settings
+    ![image](https://user-images.githubusercontent.com/53302261/125891355-7c233a5a-28c9-4932-9d34-082b1606cc77.png)
+
+17. On the next Wizard, review the options and select "Deploy".
+    ![image](https://user-images.githubusercontent.com/53302261/125891429-0ad61a42-b267-4a0a-9718-824ea18e3da6.png)
 
 After successful build, i have configured 
