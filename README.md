@@ -74,4 +74,27 @@ Firstly, we need to create a new environment and deploy your application.
 17. On the next Wizard, review the options and select "Deploy".
     ![image](https://user-images.githubusercontent.com/53302261/125891429-0ad61a42-b267-4a0a-9718-824ea18e3da6.png)
 
+18. Basically this process will create environment in AWS Elastic Beanstalk with following resources provisioned.
+     •	AWS Elastic Beanstalk will automatically create S3 bucket to store environment Data. 
+     
+     •	Create security groups which allows only https port for all EC2 instances.
+     
+     •	Create autoscaling lauch configuration and scaling group.
+     
+     •	Launch EC2 instances.
+     
+     •	Create autoscaling group policies.
+     
+     •	Add EC2 instances to Autoscaling group.
+     
+     •	Create cloudwatch alarm for all EC2 instances.
+     
+     •	Create Load Balancer and add EC2 instances into it.
+     
+     •	Start application update on all EC2 instances.
+     
+     •	Once all resources provisioned above, the status will update in Visual Studio as "Environment healthy" .
+
+
+
 After successful build, i have configured 
