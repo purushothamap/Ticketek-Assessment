@@ -96,5 +96,16 @@ Firstly, we need to create a new environment and deploy your application.
      •	Once all resources provisioned above, the status will update in Visual Studio as "Environment healthy" .
 
 
+19. Once environment is healthy, You can monitor the resources from Visual studio.
+    ![image](https://user-images.githubusercontent.com/53302261/126067802-e9836d01-7c7c-4ddd-9503-05931e2a51c8.png)
 
-After successful build, i have configured 
+20. You can also setup cloudwatch dashboard to monitor the resources directly from AWS Console.
+    ![image](https://user-images.githubusercontent.com/53302261/126067846-68f085c6-f852-4562-bad2-90a1e1290a55.png)
+
+21. EC2 instance types and AMI can still be modified even after provisioning the environment.
+22. You can also set the notifications on the environment status.
+23. You can also update advanced configuration details from visual studio related to autoscaling and load balacing properties.
+    ![image](https://user-images.githubusercontent.com/53302261/126067950-635d7b91-8181-422c-bb44-ced37efab79f.png)
+
+24. Snapshot logs can also be monitored without login to AWS Console from Visual studio.
+    ![image](https://user-images.githubusercontent.com/53302261/126067996-556aab64-2fcc-4823-996c-77d969f96009.png)
