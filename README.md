@@ -109,3 +109,6 @@ Firstly, we need to create a new environment and deploy your application.
 
 24. Snapshot logs can also be monitored without login to AWS Console from Visual studio.
     ![image](https://user-images.githubusercontent.com/53302261/126067996-556aab64-2fcc-4823-996c-77d969f96009.png)
+
+
+The application cane be accessible from http://ticketek-dev.ap-southeast-2.elasticbeanstalk.com/, but it has some issues with respect to code, so couldn't load the GUI. Need additional efforts to verify and fix the issue.
